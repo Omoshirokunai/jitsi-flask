@@ -2,7 +2,7 @@
 
 Experiment with the jitsi meet api in a flask app.
 
-## how to run
+## How to run
 
 `git clone git@github.com:Omoshirokunai/jitsi-flask.git`
 
