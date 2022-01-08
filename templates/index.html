@@ -6,10 +6,9 @@
 <script type="text/javascript">
 
     $(document).ready(function () {
-   /* jshint ignore:start */
-    var data = {{ data|safe }};
-    /* jshint ignore:end */
-    var domain = "meet.jit.si";
+
+    var data = {{ data|safe }}; // taking roomname option from app.py might use for picking options later
+    var domain = "meet.jit.si"; //change to your domain
     var options = {
             roomName: data,
             width: "100%",
